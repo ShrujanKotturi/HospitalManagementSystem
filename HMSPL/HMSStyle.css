@@ -1,0 +1,63 @@
+﻿#Header
+{
+    height:100px;
+    background-color:#FFCCCC;
+    height:200px;
+
+  border:5px solid black;
+  }
+h1
+{
+    color: White;
+    font-family:Calibri;
+    position:absolute;
+    padding-top:10px;
+    padding-bottom:30px;
+    font-weight:bold;
+    font-size:50px;
+    top: 19px;
+    left: 209px;
+    width: 871px;
+    margin-top: 15px;
+    height: 56px;
+}
+#left
+{
+    margin-left:0px;
+    margin-top:0px;
+}
+#navi
+{
+   position:relative;
+    top:-59px;
+    height:391px;
+    width:227px;
+    background-image:url('file:///D:/397749/AD/Project/IntegrationHospitalManagementSystem/HMS.Web/Images/wood-textured-background-desktop.jpg');
+    background-repeat:no-repeat;
+    border:10px solid black;
+    left: 0px;
+    background-color: #FFCCCC;
+}
+#content
+{
+    position:relative;
+    margin-left:511px;
+    top: -470px;
+    left: -264px;
+    height: 404px;
+    width: 1034px;
+    background-image:url('file:///D:/397749/AD/Project/IntegrationHospitalManagementSystem/HMS.Web/Images/new%20wood.jpg');
+    background-repeat:repeat;
+    margin-top: 0px;
+}
+a
+{
+    color:#CC0000;
+    text-decoration:none;
+    font-size:large;
+}
+a:hover
+{
+    font-size:x-large;
+    font-style:italic;
+}

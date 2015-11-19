@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="HMSPL.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head id="Head1" runat="server">
+    <title></title>
+     <link href="StyleSheetMaster.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .style1
+        {
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Header" style="font-size: xx-large">
+        <span class="style1">Hospital Management System</span>
+    </div>
+    <%--<div id="right">
+        <img src="" 
+            style="height: 136px; width: 197px; margin-left: 157px; margin-top: 0px;" />
+    </div>--%>
+    <div id="MainContent">
+        <asp:ContentPlaceHolder ID="PageContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

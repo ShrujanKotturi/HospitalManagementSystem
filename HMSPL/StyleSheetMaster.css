@@ -1,0 +1,48 @@
+﻿#Header
+{
+/*background-image:url('D:\397749\AD\Project\HospitalManagementSystem\HospitalManagementSystem\HMS.HomePage\Images\blues.jpg');*/
+background-color: #FFCCCC;
+text-align:center;
+height:78px;
+font-family:@verdana;
+font-size:xx-large;
+font-weight:bold;
+color: #CC0000;
+padding:40px;    
+}
+
+#MainContent
+{
+   position:absolute;
+   left:13px;
+   top:180px;
+   width:1060px;
+   background-color:#ebfff5;
+   
+    height: 427px;
+}
+#Left
+{
+    background-color:#99ccff;
+    height:500px;
+    width:240px;
+    left:2px;
+    background-color:#dfe9ff;
+    
+}
+#right
+{
+    position:absolute;
+    top:30px;
+    left:109px;
+    height: 122px;
+    width: 148px;
+}
+#login
+{
+    position:relative;
+    height:57px;
+    width:56px;
+    top: 0px;
+    left: 4px;
+}
